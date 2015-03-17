@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!-------测试怪物个数--------->
+	<key>Count</key>
+	<real>2</real>
+
+<!-------AI种类，0是直角寻路，1是斜线寻路, 2是混用--------->
+	<key>AIType</key>
+	<real>0</real>
+
+<!-------侦查范围--------->
+	<key>ScoutRange</key>
+	<real>150</real>
+
+<!-------攻击范围--------->
+	<key>AttackRange</key>
+	<real>50</real>
+
+<!-------攻击间隔--------->
+	<key>BreakTime</key>
+	<real>1.0</real>
+
+
+<!-------AI0的目标点的随机范围--------->
+	<key>Offset</key>
+	<real>50</real>
+</dict>
+</plist>

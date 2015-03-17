@@ -1,0 +1,1826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{eef731e0-abc8-4fff-b80e-21e9af6fb94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Effects">
+      <UniqueIdentifier>{76d9c33f-6db0-4f1e-8b48-860480b25e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Effects\BackgroundEffects">
+      <UniqueIdentifier>{3aec2657-27a5-439c-a77d-7ca5d9eb2c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Effects\BaseEffect">
+      <UniqueIdentifier>{603839b2-3867-477e-ac4f-1397b24eb4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FileInfo">
+      <UniqueIdentifier>{30e5f87a-2111-49aa-964d-f9b920a6b9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FileInfo\BaseFrame">
+      <UniqueIdentifier>{6e703354-3594-48cd-9081-0e47140ae50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Includes">
+      <UniqueIdentifier>{1fba97f8-fb86-4a80-8a17-228fa69af6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Physics">
+      <UniqueIdentifier>{d7f7c872-8281-4a3b-9160-97855f54beef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skills">
+      <UniqueIdentifier>{2b96441b-43c1-4f33-a4d2-88f6e8e2ca59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skills\SkillControl">
+      <UniqueIdentifier>{4eafed8f-21d3-43bc-a18e-508e9aa8bc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites">
+      <UniqueIdentifier>{8b6e84c1-3f83-4a88-89ea-b1ecae4c64fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\BaseSprites">
+      <UniqueIdentifier>{c81cf46c-5b0c-43c3-b67a-724a28e32cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\Physics">
+      <UniqueIdentifier>{615bec64-0d6e-4445-aa91-c30546fc7485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\Role">
+      <UniqueIdentifier>{6ffd17b3-d1f3-4dd7-9f6e-af967dd59ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\RoleFilter">
+      <UniqueIdentifier>{36e19d61-8592-47a7-be9f-717c0b220160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\TileLayers">
+      <UniqueIdentifier>{f4b97307-7b94-473b-99d6-dfb60ae98471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\music">
+      <UniqueIdentifier>{6165c064-d0b8-4932-9bfe-cfa713ab75b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\spine">
+      <UniqueIdentifier>{a692b7f8-ca62-459f-aad2-7cac629d9a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\test">
+      <UniqueIdentifier>{e91a1b10-92ee-44c2-acec-b3288e928d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\tilemaps">
+      <UniqueIdentifier>{37f2b39b-e026-4996-91a1-2bf3e9bef026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FileInfo\TinyXml">
+      <UniqueIdentifier>{dadc4fa2-a7f3-4510-86a5-f8ba8c12fbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Music">
+      <UniqueIdentifier>{7cbc2652-bae6-4d49-93e5-348888ff941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skills\Actions">
+      <UniqueIdentifier>{a23233f8-a366-46fe-8807-a485c6c88bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skills\SkillSystem">
+      <UniqueIdentifier>{8017650a-54cd-4034-ba18-f0d35b108734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\AnimateBase">
+      <UniqueIdentifier>{f39c98de-310e-46fe-bad1-0ed75431830b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\Decoration">
+      <UniqueIdentifier>{f4639242-f05c-4caf-a0ed-c6c5fd8296d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Geometries">
+      <UniqueIdentifier>{77a9714f-180a-4f19-af30-67936d4ff313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skills\SkillAttack">
+      <UniqueIdentifier>{18eb7a2c-6be7-4824-9044-bb4f9c7dc4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DataInfo">
+      <UniqueIdentifier>{1e25665c-a469-4fb7-af0a-28fa5a59c4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Hud">
+      <UniqueIdentifier>{0563b433-d131-47d1-9be7-118fea510f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{7156db24-8f74-4cfe-9fbe-ea7e45d97a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\AI">
+      <UniqueIdentifier>{d8dd71e5-a33d-49b9-b099-b9555636fa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sqlite">
+      <UniqueIdentifier>{96a6c451-7dc7-43db-a2fe-acda9209b619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skills\Reader">
+      <UniqueIdentifier>{73ff9ca4-48e4-41a0-bfd3-63bb904cfbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network">
+      <UniqueIdentifier>{51cff18d-02a7-4522-895a-c81b4da31102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\RakNet">
+      <UniqueIdentifier>{b8239570-c809-44eb-b117-ad45bdddb066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\pthread">
+      <UniqueIdentifier>{ceae667d-1146-4ed6-bf33-bb047dec9761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites\Entity">
+      <UniqueIdentifier>{d51043d8-5fc1-49a7-86dd-325ab262b418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\HitBox">
+      <UniqueIdentifier>{9a431179-7c31-4d11-a7f9-f713b908324b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Loader">
+      <UniqueIdentifier>{d406cc9f-8a66-4d55-9ccd-0e5bbff34186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CocoGUILIB">
+      <UniqueIdentifier>{e81a7f2c-7d41-4fd7-afde-a3ab140de3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes">
+      <UniqueIdentifier>{1bfd7bb0-0cb5-4e46-a8ea-68deac442dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Base">
+      <UniqueIdentifier>{4cdf73d7-0b29-4cc6-aebf-83afc56f9dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Game">
+      <UniqueIdentifier>{4a2890ab-3747-4ea4-88a5-e360c1bcad8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\MainCity">
+      <UniqueIdentifier>{fb6aa3d5-84f6-4579-ae5c-e7eb71fde3a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effects\BackgroundEffects\FlyBirds.cpp">
+      <Filter>Classes\Effects\BackgroundEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effects\BaseEffect\BaseEffect.cpp">
+      <Filter>Classes\Effects\BaseEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKActionClass.cpp">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKBaseClass.cpp">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKClassFactory.cpp">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKDynamicClass.cpp">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\PropertyLoader.cpp">
+      <Filter>Classes\FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Physics\ContactHandler.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Physics\MyContactListener.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Physics\PhysicsWorld.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\Skill.cpp">
+      <Filter>Classes\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\SkillControl\SkillHudLayer.cpp">
+      <Filter>Classes\Skills\SkillControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\SkillControl\SkillItem.cpp">
+      <Filter>Classes\Skills\SkillControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\AnimationSprite.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\BaseSprites\BaseSprite.cpp">
+      <Filter>Classes\Sprites\BaseSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Physics\BasePhysicsSprite.cpp">
+      <Filter>Classes\Sprites\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Physics\ContactSprite.cpp">
+      <Filter>Classes\Sprites\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\RoleFilter\RoleFilter.cpp">
+      <Filter>Classes\Sprites\RoleFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TileLayers\DebugLayer.cpp">
+      <Filter>Classes\TileLayers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TileLayers\TileParallaxNode.cpp">
+      <Filter>Classes\TileLayers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinystr.cpp">
+      <Filter>Classes\FileInfo\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinyxml.cpp">
+      <Filter>Classes\FileInfo\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinyxmlerror.cpp">
+      <Filter>Classes\FileInfo\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinyxmlparser.cpp">
+      <Filter>Classes\FileInfo\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Music\MusicPlayer.cpp">
+      <Filter>Classes\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\Actions\SkillJumpBy.cpp">
+      <Filter>Classes\Skills\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\Actions\SkillMoveBy.cpp">
+      <Filter>Classes\Skills\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\SkillSystem\SkillSystem.cpp">
+      <Filter>Classes\Skills\SkillSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\AnimateBase\Animate3D.cpp">
+      <Filter>Classes\Sprites\AnimateBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\AnimateBase\AnimateAction.cpp">
+      <Filter>Classes\Sprites\AnimateBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\AnimateBase\AnimateData.cpp">
+      <Filter>Classes\Sprites\AnimateBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Decoration\ShadowSprite.cpp">
+      <Filter>Classes\Sprites\Decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Physics\ContactAnimateSprite.cpp">
+      <Filter>Classes\Sprites\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Role\AiPlayer.cpp">
+      <Filter>Classes\Sprites\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Role\Hero.cpp">
+      <Filter>Classes\Sprites\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Geometries\BodyRegion.cpp">
+      <Filter>Classes\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Geometries\Point3D.cpp">
+      <Filter>Classes\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HitBox\BaseHitBox.cpp">
+      <Filter>Classes\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HitBox\HitBox.cpp">
+      <Filter>Classes\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\SkillAttack\SkillAttack.cpp">
+      <Filter>Classes\Skills\SkillAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\SkillAttack\SkillAttackManager.cpp">
+      <Filter>Classes\Skills\SkillAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\Actions\SkillFollow.cpp">
+      <Filter>Classes\Skills\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataInfo\RoleProperty.cpp">
+      <Filter>Classes\DataInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hud\DirectionPad.cpp">
+      <Filter>Classes\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hud\StatusBar.cpp">
+      <Filter>Classes\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataInfo\MonsterProp.cpp">
+      <Filter>Classes\DataInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataInfo\PlayerProp.cpp">
+      <Filter>Classes\DataInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataInfo\PropResolver.cpp">
+      <Filter>Classes\DataInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Decoration\NoteSprite.cpp">
+      <Filter>Classes\Sprites\Decoration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\BaseSprites\SimpleAnimation.cpp">
+      <Filter>Classes\Sprites\BaseSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AiModule.cpp">
+      <Filter>Classes\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AiAction.cpp">
+      <Filter>Classes\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AiCondition.cpp">
+      <Filter>Classes\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AI\AiState.cpp">
+      <Filter>Classes\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\Reader\RoleResolver.cpp">
+      <Filter>Classes\Skills\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sqlite\SqliteHelper.cpp">
+      <Filter>Classes\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sqlite\SqliteQuery.cpp">
+      <Filter>Classes\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sqlite\SqliteResolver.cpp">
+      <Filter>Classes\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sqlite\SqliteTable.cpp">
+      <Filter>Classes\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sqlite\sqlite3.c">
+      <Filter>Classes\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Music\MusicInfo.cpp">
+      <Filter>Classes\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\_FindFirst.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Base64Encoder.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\BitStream.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CCRakNetSlidingWindow.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CCRakNetUDT.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CheckSum.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CloudClient.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CloudCommon.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CloudServer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\CommandParserInterface.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\ConnectionGraph2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\ConsoleServer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DataCompressor.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DirectoryDeltaTransfer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DR_SHA1.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DS_BytePool.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DS_ByteQueue.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DS_HuffmanEncodingTree.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DS_Table.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\DynDNS.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\EmailSender.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\EpochTimeToString.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\FileList.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\FileListTransfer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\FileOperations.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\FormatString.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\FullyConnectedMesh2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Getche.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Gets.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\GetTime.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\gettimeofday.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\GridSectorizer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\HTTPConnection.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\HTTPConnection2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\IncrementalReadInterface.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Itoa.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\LinuxStrings.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\LocklessTypes.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\LogCommandParser.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\MessageFilter.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NatPunchthroughClient.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NatPunchthroughServer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NatTypeDetectionClient.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NatTypeDetectionCommon.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NatTypeDetectionServer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NetworkIDManager.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\NetworkIDObject.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PacketConsoleLogger.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PacketFileLogger.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PacketizedTCP.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PacketLogger.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PacketOutputWindowLogger.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PluginInterface2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\PS4Includes.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Rackspace.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakMemoryOverride.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetCommandParser.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_360_720.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Berkley.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Berkley_NativeClient.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_NativeClient.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_PS3_PS4.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_PS4.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Vita.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Windows_Linux.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Windows_Linux_360.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_WindowsStore8.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetStatistics.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetTransport2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakNetTypes.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakPeer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakSleep.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakString.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakThread.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RakWString.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Rand.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RandSync.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\ReadyEvent.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RelayPlugin.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\ReliabilityLayer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\ReplicaManager3.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\Router2.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\RPC4Plugin.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\SecureHandshake.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\SendToThread.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\SignaledEvent.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\SimpleMutex.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\SocketLayer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\StatisticsHistory.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\StringCompressor.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\StringTable.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\SuperFastHash.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\TableSerializer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\TCPInterface.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\TeamBalancer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\TeamManager.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\TelnetTransport.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\ThreadsafePacketLogger.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\TwoWayAuthentication.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\UDPForwarder.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\UDPProxyClient.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\UDPProxyCoordinator.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\UDPProxyServer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\VariableDeltaSerializer.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\VariableListDeltaTracker.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\VariadicSQLParser.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\VitaIncludes.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RakNet\WSAStartupSingleton.cpp">
+      <Filter>Classes\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Network\GameNet.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Entity\ItemSprite.cpp">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Entity\SkillContactSprite.cpp">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Entity\PortalSprite.cpp">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Entity\BarrierSprite.cpp">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntitiesManager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Loader\Loader.cpp">
+      <Filter>Classes\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Loader\MonstersLoader.cpp">
+      <Filter>Classes\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Loader\MonstersLoaderData.cpp">
+      <Filter>Classes\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIAction.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIActionFrame.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIActionManager.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIActionNode.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\BaseClasses\UIRootWidget.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\BaseClasses\UIWidget.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\CocostudioReader\CCSSceneReader.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\CocostudioReader\DictionaryHelper.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Components\CCComRender.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Components\CCCustomAttribute.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Components\CCCustomAudio.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\Layout.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\LayoutExecutant.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\LayoutParameter.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\UILayoutDefine.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\System\CCSReader.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\System\CocosGUI.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\System\UIHelper.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\System\UIInputManager.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\System\UILayer.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIDragPanel.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIListView.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIPageView.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIScrollView.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UIButton.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UICheckBox.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UIImageView.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILabel.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILabelAtlas.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILabelBMFont.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILoadingBar.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UINodeContainer.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UISlider.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UISwitch.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UITextButton.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UITextField.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoGUILIB\CocosGUIExamplesRegisterScene.cpp">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skills\SkillProperty.cpp">
+      <Filter>Classes\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Role\NPCSprite.cpp">
+      <Filter>Classes\Sprites\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Entity\DungeonPortal.cpp">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Base\BaseLayer.cpp">
+      <Filter>Classes\Scenes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Game\GameLayer.cpp">
+      <Filter>Classes\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Game\GameScene.cpp">
+      <Filter>Classes\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Game\HudLayer.cpp">
+      <Filter>Classes\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MainCity\MainCityHudLayer.cpp">
+      <Filter>Classes\Scenes\MainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MainCity\MainCityLayer.cpp">
+      <Filter>Classes\Scenes\MainCity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MainCity\MainCityScene.cpp">
+      <Filter>Classes\Scenes\MainCity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effects\BackgroundEffects\FlyBirds.h">
+      <Filter>Classes\Effects\BackgroundEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effects\BaseEffect\BaseEffect.h">
+      <Filter>Classes\Effects\BaseEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKActionClass.h">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKBaseClass.h">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKClassFactory.h">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKDynamicClass.h">
+      <Filter>Classes\FileInfo\BaseFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\PropertyLoader.h">
+      <Filter>Classes\FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Includes\Resources.h">
+      <Filter>Classes\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Includes\SkillNames.h">
+      <Filter>Classes\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Physics\ContactHandler.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Physics\MyContactListener.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Physics\PhysicsWorld.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\Skill.h">
+      <Filter>Classes\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\SkillControl\SkillHudLayer.h">
+      <Filter>Classes\Skills\SkillControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\SkillControl\SkillItem.h">
+      <Filter>Classes\Skills\SkillControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\AnimationSprite.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\BaseSprites\BaseSprite.h">
+      <Filter>Classes\Sprites\BaseSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Physics\BasePhysicsSprite.h">
+      <Filter>Classes\Sprites\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Physics\ContactSprite.h">
+      <Filter>Classes\Sprites\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\RoleFilter\RoleFilter.h">
+      <Filter>Classes\Sprites\RoleFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TileLayers\DebugLayer.h">
+      <Filter>Classes\TileLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TileLayers\TileParallaxNode.h">
+      <Filter>Classes\TileLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\TinyXml\tinystr.h">
+      <Filter>Classes\FileInfo\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FileInfo\TinyXml\tinyxml.h">
+      <Filter>Classes\FileInfo\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Music\MusicPlayer.h">
+      <Filter>Classes\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\Actions\SkillJumpBy.h">
+      <Filter>Classes\Skills\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\Actions\SkillMoveBy.h">
+      <Filter>Classes\Skills\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\SkillSystem\SkillSystem.h">
+      <Filter>Classes\Skills\SkillSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\AnimateBase\Animate3D.h">
+      <Filter>Classes\Sprites\AnimateBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\AnimateBase\AnimateAction.h">
+      <Filter>Classes\Sprites\AnimateBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\AnimateBase\AnimateData.h">
+      <Filter>Classes\Sprites\AnimateBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Decoration\ShadowSprite.h">
+      <Filter>Classes\Sprites\Decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Physics\ContactAnimateSprite.h">
+      <Filter>Classes\Sprites\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Defines.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Role\AiPlayer.h">
+      <Filter>Classes\Sprites\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Role\Hero.h">
+      <Filter>Classes\Sprites\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Geometries\BodyRegion.h">
+      <Filter>Classes\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Geometries\Point3D.h">
+      <Filter>Classes\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HitBox\BaseHitBox.h">
+      <Filter>Classes\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HitBox\HitBox.h">
+      <Filter>Classes\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\SkillAttack\SkillAttack.h">
+      <Filter>Classes\Skills\SkillAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\SkillAttack\SkillAttackManager.h">
+      <Filter>Classes\Skills\SkillAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\Actions\SkillFollow.h">
+      <Filter>Classes\Skills\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataInfo\RoleProperty.h">
+      <Filter>Classes\DataInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hud\DirectionPad.h">
+      <Filter>Classes\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hud\StatusBar.h">
+      <Filter>Classes\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataInfo\MonsterProp.h">
+      <Filter>Classes\DataInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataInfo\PlayerProp.h">
+      <Filter>Classes\DataInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataInfo\PropResolver.h">
+      <Filter>Classes\DataInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Decoration\NoteSprite.h">
+      <Filter>Classes\Sprites\Decoration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\BaseSprites\SimpleAnimation.h">
+      <Filter>Classes\Sprites\BaseSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AiModule.h">
+      <Filter>Classes\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AiAction.h">
+      <Filter>Classes\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AiCondition.h">
+      <Filter>Classes\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AI\AiState.h">
+      <Filter>Classes\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\StringUtils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\MathUtils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\MiscUtils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\Reader\RoleResolver.h">
+      <Filter>Classes\Skills\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sqlite\sqlite3.h">
+      <Filter>Classes\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sqlite\SqliteHelper.h">
+      <Filter>Classes\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sqlite\SqliteQuery.h">
+      <Filter>Classes\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sqlite\SqliteResolver.h">
+      <Filter>Classes\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sqlite\SqliteTable.h">
+      <Filter>Classes\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Music\MusicInfo.h">
+      <Filter>Classes\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\_FindFirst.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\AutopatcherPatchContext.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\AutopatcherRepositoryInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Base64Encoder.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\BitStream.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CCRakNetSlidingWindow.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CCRakNetUDT.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CheckSum.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CloudClient.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CloudCommon.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CloudServer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\CommandParserInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ConnectionGraph2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ConsoleServer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DataCompressor.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DirectoryDeltaTransfer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DR_SHA1.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_BinarySearchTree.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_BPlusTree.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_BytePool.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_ByteQueue.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Hash.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Heap.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_HuffmanEncodingTree.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_LinkedList.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_List.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Map.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_MemoryPool.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Multilist.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_OrderedChannelHeap.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_OrderedList.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Queue.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_QueueLinkedList.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_RangeList.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Table.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_Tree.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DS_WeightedGraph.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\DynDNS.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\EmailSender.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\EmptyHeader.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\EpochTimeToString.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Export.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FileList.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FileListNodeContext.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FileListTransfer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FileListTransferCBInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FileOperations.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FormatString.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\FullyConnectedMesh2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Getche.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Gets.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\GetTime.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\gettimeofday.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\GridSectorizer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\HTTPConnection.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\HTTPConnection2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\IncrementalReadInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\InternalPacket.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Itoa.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Kbhit.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\LinuxStrings.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\LocklessTypes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\LogCommandParser.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\MessageFilter.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\MessageIdentifiers.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\MTUSize.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NativeFeatureIncludes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NativeFeatureIncludesOverrides.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NativeTypes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NatPunchthroughClient.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NatPunchthroughServer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NatTypeDetectionClient.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NatTypeDetectionCommon.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NatTypeDetectionServer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NetworkIDManager.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\NetworkIDObject.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketConsoleLogger.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketFileLogger.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketizedTCP.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketLogger.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketOutputWindowLogger.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketPool.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PacketPriority.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PluginInterface2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PS3Includes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\PS4Includes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Rackspace.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakAlloca.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakAssert.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakMemoryOverride.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetCommandParser.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetDefines.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetDefinesOverrides.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetSmartPtr.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetSocket.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetSocket2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetStatistics.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetTime.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetTransport2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetTypes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakNetVersion.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakPeer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakPeerInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakSleep.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakString.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakThread.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RakWString.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Rand.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RandSync.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ReadyEvent.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RefCountedObj.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RelayPlugin.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ReliabilityLayer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ReplicaEnums.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ReplicaManager3.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\Router2.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\RPC4Plugin.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SecureHandshake.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SendToThread.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SignaledEvent.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SimpleMutex.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SimpleTCPServer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SingleProducerConsumer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SocketDefines.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SocketIncludes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SocketLayer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\StatisticsHistory.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\StringCompressor.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\StringTable.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\SuperFastHash.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TableSerializer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TCPInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TeamBalancer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TeamManager.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TelnetTransport.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ThreadPool.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\ThreadsafePacketLogger.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TransportInterface.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\TwoWayAuthentication.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\UDPForwarder.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\UDPProxyClient.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\UDPProxyCommon.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\UDPProxyCoordinator.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\UDPProxyServer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\VariableDeltaSerializer.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\VariableListDeltaTracker.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\VariadicSQLParser.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\VitaIncludes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\WindowsIncludes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\WSAStartupSingleton.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RakNet\XBox360Includes.h">
+      <Filter>Classes\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network\GameNet.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread\include\pthread.h">
+      <Filter>win32\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread\include\sched.h">
+      <Filter>win32\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread\include\semaphore.h">
+      <Filter>win32\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Entity\ItemSprite.h">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Entity\SkillContactSprite.h">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Entity\PortalSprite.h">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Entity\BarrierSprite.h">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntitiesManager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Loader\Loader.h">
+      <Filter>Classes\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Loader\MonstersLoader.h">
+      <Filter>Classes\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Loader\MonstersLoaderData.h">
+      <Filter>Classes\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIAction.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIActionFrame.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIActionManager.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIActionNode.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\BaseClasses\UIRootWidget.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\BaseClasses\UIWidget.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\CocostudioReader\CCSSceneReader.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\CocostudioReader\DictionaryHelper.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Components\CCComRender.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Components\CCCustomAttribute.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Components\CCCustomAudio.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\Layout.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\LayoutExecutant.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\LayoutParameter.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\UILayoutDefine.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\System\CCSReader.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\System\CocosGUI.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\System\UIHelper.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\System\UIInputManager.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\System\UILayer.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\Compatible\CompatibleClasses.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIDragPanel.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIListView.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIPageView.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIScrollInterface.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIScrollView.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UIButton.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UICheckBox.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UIImageView.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILabel.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILabelAtlas.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILabelBMFont.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILoadingBar.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UINodeContainer.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UISlider.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UISwitch.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UITextButton.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UITextField.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoGUILIB\CocosGUIExamplesRegisterScene.h">
+      <Filter>Classes\CocoGUILIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skills\SkillProperty.h">
+      <Filter>Classes\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Role\NPCSprite.h">
+      <Filter>Classes\Sprites\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Entity\DungeonPortal.h">
+      <Filter>Classes\Sprites\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Base\BaseLayer.h">
+      <Filter>Classes\Scenes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Game\GameLayer.h">
+      <Filter>Classes\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Game\GameScene.h">
+      <Filter>Classes\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Game\HudLayer.h">
+      <Filter>Classes\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MainCity\MainCityHudLayer.h">
+      <Filter>Classes\Scenes\MainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MainCity\MainCityLayer.h">
+      <Filter>Classes\Scenes\MainCity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MainCity\MainCityScene.h">
+      <Filter>Classes\Scenes\MainCity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\birds.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\leaves.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\mainInfo.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\pd_sprites.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\pd_sprites.pvr.ccz">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\steelWheel.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\steelWheel.pvr.ccz">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\waterWave.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\test\rysjdz.json">
+      <Filter>Resources\test</Filter>
+    </None>
+    <None Include="..\Resources\test\rysjdz0.plist">
+      <Filter>Resources\test</Filter>
+    </None>
+    <None Include="..\Resources\test\SmallSun.plist">
+      <Filter>Resources\test</Filter>
+    </None>
+    <None Include="..\Resources\test\test.json">
+      <Filter>Resources\test</Filter>
+    </None>
+    <None Include="..\Resources\test\test0.plist">
+      <Filter>Resources\test</Filter>
+    </None>
+    <None Include="..\Resources\spine\alice.atlas">
+      <Filter>Resources\spine</Filter>
+    </None>
+    <None Include="..\Resources\spine\alice.json">
+      <Filter>Resources\spine</Filter>
+    </None>
+    <None Include="..\Resources\tilemaps\jueqinggu-0.tmx">
+      <Filter>Resources\tilemaps</Filter>
+    </None>
+    <None Include="..\Resources\tilemaps\jueqinggu-1.tmx">
+      <Filter>Resources\tilemaps</Filter>
+    </None>
+    <None Include="..\Resources\tilemaps\jueqinggu-2.tmx">
+      <Filter>Resources\tilemaps</Filter>
+    </None>
+    <None Include="..\Resources\tilemaps\xiangyangcheng.tmx">
+      <Filter>Resources\tilemaps</Filter>
+    </None>
+    <None Include="..\Resources\tilemaps\xiangyangcheng-2.tmx">
+      <Filter>Resources\tilemaps</Filter>
+    </None>
+    <None Include="..\Resources\tilemaps\xiangyangcheng-3.tmx">
+      <Filter>Resources\tilemaps</Filter>
+    </None>
+    <None Include="..\Classes\RakNet\RakNet.vcproj">
+      <Filter>Classes\RakNet</Filter>
+    </None>
+    <None Include="..\Classes\RakNet\RakNet_vc8.vcproj">
+      <Filter>Classes\RakNet</Filter>
+    </None>
+    <None Include="..\Classes\RakNet\RakNet_vc9.vcproj">
+      <Filter>Classes\RakNet</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\birds.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Block.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\bollet.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Paddle.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\test\rysjdz0.png">
+      <Filter>Resources\test</Filter>
+    </Image>
+    <Image Include="..\Resources\test\test0.png">
+      <Filter>Resources\test</Filter>
+    </Image>
+    <Image Include="..\Resources\spine\alice.png">
+      <Filter>Resources\spine</Filter>
+    </Image>
+    <Image Include="..\Resources\tilemaps\jueqinggu.png">
+      <Filter>Resources\tilemaps</Filter>
+    </Image>
+    <Image Include="..\Resources\tilemaps\xiangyangcheng.png">
+      <Filter>Resources\tilemaps</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\music\background.wav">
+      <Filter>Resources\music</Filter>
+    </Media>
+    <Media Include="..\Resources\music\pd_herodeath.wav">
+      <Filter>Resources\music</Filter>
+    </Media>
+    <Media Include="..\Resources\music\pd_hit0.wav">
+      <Filter>Resources\music</Filter>
+    </Media>
+    <Media Include="..\Resources\music\pd_hit1.wav">
+      <Filter>Resources\music</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\RakNet\CMakeLists.txt">
+      <Filter>Classes\RakNet</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

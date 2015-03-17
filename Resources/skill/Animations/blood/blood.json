@@ -1,0 +1,227 @@
+{
+  "armature_data": [
+    {
+      "name": "blood",
+      "bone_data": [
+        {
+          "name": "Layer104",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_04.png"
+            },
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_05.png"
+            },
+            {
+              "displayType": 0,
+              "name": "cutneckfinishblood/blood_06.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "blood",
+      "mov_data": [
+        {
+          "name": "hurtblood",
+          "dr": 36,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer104",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 3,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 4,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 5,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 6,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 6,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "cutneckfinishblood\\blood_00",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "cutneckfinishblood\\blood_01",
+      "width": 50.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "cutneckfinishblood\\blood_02",
+      "width": 50.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "cutneckfinishblood\\blood_03",
+      "width": 50.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "cutneckfinishblood\\blood_04",
+      "width": 50.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "cutneckfinishblood\\blood_05",
+      "width": 50.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "cutneckfinishblood\\blood_06",
+      "width": 50.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    }
+  ],
+  "config_file_path": [
+    "blood0.plist"
+  ]
+}

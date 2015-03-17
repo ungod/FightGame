@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\cocos2dx\proj.win32\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\cocos2dx\proj.win32\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;$(ProjectDir)\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;WS2_32.LIB;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;websockets.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AI\AiAction.cpp" />
+    <ClCompile Include="..\Classes\AI\AiCondition.cpp" />
+    <ClCompile Include="..\Classes\AI\AiModule.cpp" />
+    <ClCompile Include="..\Classes\AI\AiState.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIAction.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIActionFrame.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIActionManager.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Action\UIActionNode.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\BaseClasses\UIRootWidget.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\BaseClasses\UIWidget.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\CocosGUIExamplesRegisterScene.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\CocostudioReader\CCSSceneReader.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\CocostudioReader\DictionaryHelper.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Components\CCComRender.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Components\CCCustomAttribute.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Components\CCCustomAudio.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\Layout.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\LayoutExecutant.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\LayoutParameter.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\Layouts\UILayoutDefine.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\System\CCSReader.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\System\CocosGUI.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\System\UIHelper.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\System\UIInputManager.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\System\UILayer.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIDragPanel.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIListView.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIPageView.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIScrollView.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UIButton.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UICheckBox.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UIImageView.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILabel.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILabelAtlas.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILabelBMFont.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UILoadingBar.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UINodeContainer.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UISlider.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UISwitch.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UITextButton.cpp" />
+    <ClCompile Include="..\Classes\CocoGUILIB\UIWidgets\UITextField.cpp" />
+    <ClCompile Include="..\Classes\Config.cpp" />
+    <ClCompile Include="..\Classes\DataInfo\PlayerProp.cpp" />
+    <ClCompile Include="..\Classes\DataInfo\MonsterProp.cpp" />
+    <ClCompile Include="..\Classes\DataInfo\PropResolver.cpp" />
+    <ClCompile Include="..\Classes\DataInfo\RoleProperty.cpp" />
+    <ClCompile Include="..\Classes\DataManager.cpp" />
+    <ClCompile Include="..\Classes\Effects\BackgroundEffects\FlyBirds.cpp" />
+    <ClCompile Include="..\Classes\Effects\BaseEffect\BaseEffect.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKActionClass.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKBaseClass.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKClassFactory.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\BaseFrame\CKDynamicClass.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\PropertyLoader.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinystr.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinyxml.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Classes\FileInfo\TinyXml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\Classes\Geometries\BodyRegion.cpp" />
+    <ClCompile Include="..\Classes\Geometries\Point3D.cpp" />
+    <ClCompile Include="..\Classes\HitBox\BaseHitBox.cpp" />
+    <ClCompile Include="..\Classes\HitBox\HitBox.cpp" />
+    <ClCompile Include="..\Classes\Hud\DirectionPad.cpp" />
+    <ClCompile Include="..\Classes\Hud\StatusBar.cpp" />
+    <ClCompile Include="..\Classes\Loader\Loader.cpp" />
+    <ClCompile Include="..\Classes\Loader\MonstersLoader.cpp" />
+    <ClCompile Include="..\Classes\Loader\MonstersLoaderData.cpp" />
+    <ClCompile Include="..\Classes\Music\MusicInfo.cpp" />
+    <ClCompile Include="..\Classes\Music\MusicPlayer.cpp" />
+    <ClCompile Include="..\Classes\Network\GameNet.cpp" />
+    <ClCompile Include="..\Classes\Physics\ContactHandler.cpp" />
+    <ClCompile Include="..\Classes\Physics\MyContactListener.cpp" />
+    <ClCompile Include="..\Classes\Physics\PhysicsWorld.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Base64Encoder.cpp" />
+    <ClCompile Include="..\Classes\RakNet\BitStream.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CCRakNetSlidingWindow.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CCRakNetUDT.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CheckSum.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CloudClient.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CloudCommon.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CloudServer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\CommandParserInterface.cpp" />
+    <ClCompile Include="..\Classes\RakNet\ConnectionGraph2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\ConsoleServer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DataCompressor.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DirectoryDeltaTransfer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DR_SHA1.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DS_BytePool.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DS_ByteQueue.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DS_HuffmanEncodingTree.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DS_Table.cpp" />
+    <ClCompile Include="..\Classes\RakNet\DynDNS.cpp" />
+    <ClCompile Include="..\Classes\RakNet\EmailSender.cpp" />
+    <ClCompile Include="..\Classes\RakNet\EpochTimeToString.cpp" />
+    <ClCompile Include="..\Classes\RakNet\FileList.cpp" />
+    <ClCompile Include="..\Classes\RakNet\FileListTransfer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\FileOperations.cpp" />
+    <ClCompile Include="..\Classes\RakNet\FormatString.cpp" />
+    <ClCompile Include="..\Classes\RakNet\FullyConnectedMesh2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Getche.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Gets.cpp" />
+    <ClCompile Include="..\Classes\RakNet\GetTime.cpp" />
+    <ClCompile Include="..\Classes\RakNet\gettimeofday.cpp" />
+    <ClCompile Include="..\Classes\RakNet\GridSectorizer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\HTTPConnection.cpp" />
+    <ClCompile Include="..\Classes\RakNet\HTTPConnection2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\IncrementalReadInterface.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Itoa.cpp" />
+    <ClCompile Include="..\Classes\RakNet\LinuxStrings.cpp" />
+    <ClCompile Include="..\Classes\RakNet\LocklessTypes.cpp" />
+    <ClCompile Include="..\Classes\RakNet\LogCommandParser.cpp" />
+    <ClCompile Include="..\Classes\RakNet\MessageFilter.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NatPunchthroughClient.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NatPunchthroughServer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NatTypeDetectionClient.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NatTypeDetectionCommon.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NatTypeDetectionServer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NetworkIDManager.cpp" />
+    <ClCompile Include="..\Classes\RakNet\NetworkIDObject.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PacketConsoleLogger.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PacketFileLogger.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PacketizedTCP.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PacketLogger.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PacketOutputWindowLogger.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PluginInterface2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\PS4Includes.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Rackspace.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakMemoryOverride.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetCommandParser.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_360_720.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Berkley.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Berkley_NativeClient.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_NativeClient.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_PS3_PS4.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_PS4.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Vita.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_WindowsStore8.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Windows_Linux.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetSocket2_Windows_Linux_360.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetStatistics.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetTransport2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakNetTypes.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakPeer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakSleep.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakString.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakThread.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RakWString.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Rand.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RandSync.cpp" />
+    <ClCompile Include="..\Classes\RakNet\ReadyEvent.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RelayPlugin.cpp" />
+    <ClCompile Include="..\Classes\RakNet\ReliabilityLayer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\ReplicaManager3.cpp" />
+    <ClCompile Include="..\Classes\RakNet\Router2.cpp" />
+    <ClCompile Include="..\Classes\RakNet\RPC4Plugin.cpp" />
+    <ClCompile Include="..\Classes\RakNet\SecureHandshake.cpp" />
+    <ClCompile Include="..\Classes\RakNet\SendToThread.cpp" />
+    <ClCompile Include="..\Classes\RakNet\SignaledEvent.cpp" />
+    <ClCompile Include="..\Classes\RakNet\SimpleMutex.cpp" />
+    <ClCompile Include="..\Classes\RakNet\SocketLayer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\StatisticsHistory.cpp" />
+    <ClCompile Include="..\Classes\RakNet\StringCompressor.cpp" />
+    <ClCompile Include="..\Classes\RakNet\StringTable.cpp" />
+    <ClCompile Include="..\Classes\RakNet\SuperFastHash.cpp" />
+    <ClCompile Include="..\Classes\RakNet\TableSerializer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\TCPInterface.cpp" />
+    <ClCompile Include="..\Classes\RakNet\TeamBalancer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\TeamManager.cpp" />
+    <ClCompile Include="..\Classes\RakNet\TelnetTransport.cpp" />
+    <ClCompile Include="..\Classes\RakNet\ThreadsafePacketLogger.cpp" />
+    <ClCompile Include="..\Classes\RakNet\TwoWayAuthentication.cpp" />
+    <ClCompile Include="..\Classes\RakNet\UDPForwarder.cpp" />
+    <ClCompile Include="..\Classes\RakNet\UDPProxyClient.cpp" />
+    <ClCompile Include="..\Classes\RakNet\UDPProxyCoordinator.cpp" />
+    <ClCompile Include="..\Classes\RakNet\UDPProxyServer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\VariableDeltaSerializer.cpp" />
+    <ClCompile Include="..\Classes\RakNet\VariableListDeltaTracker.cpp" />
+    <ClCompile Include="..\Classes\RakNet\VariadicSQLParser.cpp" />
+    <ClCompile Include="..\Classes\RakNet\VitaIncludes.cpp" />
+    <ClCompile Include="..\Classes\RakNet\WSAStartupSingleton.cpp" />
+    <ClCompile Include="..\Classes\RakNet\_FindFirst.cpp" />
+    <ClCompile Include="..\Classes\EntitiesManager.cpp" />
+    <ClCompile Include="..\Classes\Scenes\Base\BaseLayer.cpp" />
+    <ClCompile Include="..\Classes\Scenes\Game\GameLayer.cpp" />
+    <ClCompile Include="..\Classes\Scenes\Game\GameScene.cpp" />
+    <ClCompile Include="..\Classes\Scenes\Game\HudLayer.cpp" />
+    <ClCompile Include="..\Classes\Scenes\MainCity\MainCityHudLayer.cpp" />
+    <ClCompile Include="..\Classes\Scenes\MainCity\MainCityLayer.cpp" />
+    <ClCompile Include="..\Classes\Scenes\MainCity\MainCityScene.cpp" />
+    <ClCompile Include="..\Classes\Skills\Actions\SkillFollow.cpp" />
+    <ClCompile Include="..\Classes\Skills\Actions\SkillJumpBy.cpp" />
+    <ClCompile Include="..\Classes\Skills\Actions\SkillMoveBy.cpp" />
+    <ClCompile Include="..\Classes\Skills\Reader\RoleResolver.cpp" />
+    <ClCompile Include="..\Classes\Skills\Skill.cpp" />
+    <ClCompile Include="..\Classes\Skills\SkillAttack\SkillAttack.cpp" />
+    <ClCompile Include="..\Classes\Skills\SkillAttack\SkillAttackManager.cpp" />
+    <ClCompile Include="..\Classes\Skills\SkillControl\SkillHudLayer.cpp" />
+    <ClCompile Include="..\Classes\Skills\SkillControl\SkillItem.cpp" />
+    <ClCompile Include="..\Classes\Skills\SkillProperty.cpp" />
+    <ClCompile Include="..\Classes\Skills\SkillSystem\SkillSystem.cpp" />
+    <ClCompile Include="..\Classes\Sprites\AnimateBase\Animate3D.cpp" />
+    <ClCompile Include="..\Classes\Sprites\AnimateBase\AnimateAction.cpp" />
+    <ClCompile Include="..\Classes\Sprites\AnimateBase\AnimateData.cpp" />
+    <ClCompile Include="..\Classes\Sprites\AnimationSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\BaseSprites\BaseSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\BaseSprites\SimpleAnimation.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Decoration\NoteSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Decoration\ShadowSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Entity\BarrierSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Entity\DungeonPortal.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Entity\ItemSprite.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Entity\PortalSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Entity\SkillContactSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Physics\BasePhysicsSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Physics\ContactAnimateSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Physics\ContactSprite.cpp" />
+    <ClCompile Include="..\Classes\Sprites\RoleFilter\RoleFilter.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Role\AiPlayer.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Role\Hero.cpp" />
+    <ClCompile Include="..\Classes\Sprites\Role\NPCSprite.cpp" />
+    <ClCompile Include="..\Classes\Sqlite\sqlite3.c" />
+    <ClCompile Include="..\Classes\Sqlite\SqliteHelper.cpp" />
+    <ClCompile Include="..\Classes\Sqlite\SqliteQuery.cpp" />
+    <ClCompile Include="..\Classes\Sqlite\SqliteResolver.cpp" />
+    <ClCompile Include="..\Classes\Sqlite\SqliteTable.cpp" />
+    <ClCompile Include="..\Classes\TileLayers\DebugLayer.cpp" />
+    <ClCompile Include="..\Classes\TileLayers\TileParallaxNode.cpp" />
+    <ClCompile Include="..\Classes\VisibleRect.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AI\AiAction.h" />
+    <ClInclude Include="..\Classes\AI\AiCondition.h" />
+    <ClInclude Include="..\Classes\AI\AiModule.h" />
+    <ClInclude Include="..\Classes\AI\AiState.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIAction.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIActionFrame.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIActionManager.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Action\UIActionNode.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\BaseClasses\UIRootWidget.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\BaseClasses\UIWidget.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\CocosGUIExamplesRegisterScene.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\CocostudioReader\CCSSceneReader.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\CocostudioReader\DictionaryHelper.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Components\CCComRender.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Components\CCCustomAttribute.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Components\CCCustomAudio.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\Layout.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\LayoutExecutant.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\LayoutParameter.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\Layouts\UILayoutDefine.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\System\CCSReader.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\System\CocosGUI.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\System\UIHelper.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\System\UIInputManager.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\System\UILayer.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\Compatible\CompatibleClasses.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIDragPanel.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIListView.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIPageView.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIScrollInterface.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\ScrollWidget\UIScrollView.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UIButton.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UICheckBox.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UIImageView.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILabel.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILabelAtlas.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILabelBMFont.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UILoadingBar.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UINodeContainer.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UISlider.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UISwitch.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UITextButton.h" />
+    <ClInclude Include="..\Classes\CocoGUILIB\UIWidgets\UITextField.h" />
+    <ClInclude Include="..\Classes\Config.h" />
+    <ClInclude Include="..\Classes\DataInfo\PlayerProp.h" />
+    <ClInclude Include="..\Classes\DataInfo\MonsterProp.h" />
+    <ClInclude Include="..\Classes\DataInfo\PropResolver.h" />
+    <ClInclude Include="..\Classes\DataInfo\RoleProperty.h" />
+    <ClInclude Include="..\Classes\DataManager.h" />
+    <ClInclude Include="..\Classes\Defines.h" />
+    <ClInclude Include="..\Classes\Effects\BackgroundEffects\FlyBirds.h" />
+    <ClInclude Include="..\Classes\Effects\BaseEffect\BaseEffect.h" />
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKActionClass.h" />
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKBaseClass.h" />
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKClassFactory.h" />
+    <ClInclude Include="..\Classes\FileInfo\BaseFrame\CKDynamicClass.h" />
+    <ClInclude Include="..\Classes\FileInfo\PropertyLoader.h" />
+    <ClInclude Include="..\Classes\FileInfo\TinyXml\tinystr.h" />
+    <ClInclude Include="..\Classes\FileInfo\TinyXml\tinyxml.h" />
+    <ClInclude Include="..\Classes\Geometries\BodyRegion.h" />
+    <ClInclude Include="..\Classes\Geometries\Point3D.h" />
+    <ClInclude Include="..\Classes\HitBox\BaseHitBox.h" />
+    <ClInclude Include="..\Classes\HitBox\HitBox.h" />
+    <ClInclude Include="..\Classes\Hud\DirectionPad.h" />
+    <ClInclude Include="..\Classes\Hud\StatusBar.h" />
+    <ClInclude Include="..\Classes\Includes\Resources.h" />
+    <ClInclude Include="..\Classes\Includes\SkillNames.h" />
+    <ClInclude Include="..\Classes\Loader\Loader.h" />
+    <ClInclude Include="..\Classes\Loader\MonstersLoader.h" />
+    <ClInclude Include="..\Classes\Loader\MonstersLoaderData.h" />
+    <ClInclude Include="..\Classes\Music\MusicInfo.h" />
+    <ClInclude Include="..\Classes\Music\MusicPlayer.h" />
+    <ClInclude Include="..\Classes\Network\GameNet.h" />
+    <ClInclude Include="..\Classes\Physics\ContactHandler.h" />
+    <ClInclude Include="..\Classes\Physics\MyContactListener.h" />
+    <ClInclude Include="..\Classes\Physics\PhysicsWorld.h" />
+    <ClInclude Include="..\Classes\RakNet\AutopatcherPatchContext.h" />
+    <ClInclude Include="..\Classes\RakNet\AutopatcherRepositoryInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\Base64Encoder.h" />
+    <ClInclude Include="..\Classes\RakNet\BitStream.h" />
+    <ClInclude Include="..\Classes\RakNet\CCRakNetSlidingWindow.h" />
+    <ClInclude Include="..\Classes\RakNet\CCRakNetUDT.h" />
+    <ClInclude Include="..\Classes\RakNet\CheckSum.h" />
+    <ClInclude Include="..\Classes\RakNet\CloudClient.h" />
+    <ClInclude Include="..\Classes\RakNet\CloudCommon.h" />
+    <ClInclude Include="..\Classes\RakNet\CloudServer.h" />
+    <ClInclude Include="..\Classes\RakNet\CommandParserInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\ConnectionGraph2.h" />
+    <ClInclude Include="..\Classes\RakNet\ConsoleServer.h" />
+    <ClInclude Include="..\Classes\RakNet\DataCompressor.h" />
+    <ClInclude Include="..\Classes\RakNet\DirectoryDeltaTransfer.h" />
+    <ClInclude Include="..\Classes\RakNet\DR_SHA1.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_BinarySearchTree.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_BPlusTree.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_BytePool.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_ByteQueue.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Hash.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Heap.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_HuffmanEncodingTree.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_HuffmanEncodingTreeFactory.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_HuffmanEncodingTreeNode.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_LinkedList.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_List.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Map.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_MemoryPool.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Multilist.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_OrderedChannelHeap.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_OrderedList.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Queue.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_QueueLinkedList.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_RangeList.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Table.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_ThreadsafeAllocatingQueue.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_Tree.h" />
+    <ClInclude Include="..\Classes\RakNet\DS_WeightedGraph.h" />
+    <ClInclude Include="..\Classes\RakNet\DynDNS.h" />
+    <ClInclude Include="..\Classes\RakNet\EmailSender.h" />
+    <ClInclude Include="..\Classes\RakNet\EmptyHeader.h" />
+    <ClInclude Include="..\Classes\RakNet\EpochTimeToString.h" />
+    <ClInclude Include="..\Classes\RakNet\Export.h" />
+    <ClInclude Include="..\Classes\RakNet\FileList.h" />
+    <ClInclude Include="..\Classes\RakNet\FileListNodeContext.h" />
+    <ClInclude Include="..\Classes\RakNet\FileListTransfer.h" />
+    <ClInclude Include="..\Classes\RakNet\FileListTransferCBInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\FileOperations.h" />
+    <ClInclude Include="..\Classes\RakNet\FormatString.h" />
+    <ClInclude Include="..\Classes\RakNet\FullyConnectedMesh2.h" />
+    <ClInclude Include="..\Classes\RakNet\Getche.h" />
+    <ClInclude Include="..\Classes\RakNet\Gets.h" />
+    <ClInclude Include="..\Classes\RakNet\GetTime.h" />
+    <ClInclude Include="..\Classes\RakNet\gettimeofday.h" />
+    <ClInclude Include="..\Classes\RakNet\GridSectorizer.h" />
+    <ClInclude Include="..\Classes\RakNet\HTTPConnection.h" />
+    <ClInclude Include="..\Classes\RakNet\HTTPConnection2.h" />
+    <ClInclude Include="..\Classes\RakNet\IncrementalReadInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\InternalPacket.h" />
+    <ClInclude Include="..\Classes\RakNet\Itoa.h" />
+    <ClInclude Include="..\Classes\RakNet\Kbhit.h" />
+    <ClInclude Include="..\Classes\RakNet\LinuxStrings.h" />
+    <ClInclude Include="..\Classes\RakNet\LocklessTypes.h" />
+    <ClInclude Include="..\Classes\RakNet\LogCommandParser.h" />
+    <ClInclude Include="..\Classes\RakNet\MessageFilter.h" />
+    <ClInclude Include="..\Classes\RakNet\MessageIdentifiers.h" />
+    <ClInclude Include="..\Classes\RakNet\MTUSize.h" />
+    <ClInclude Include="..\Classes\RakNet\NativeFeatureIncludes.h" />
+    <ClInclude Include="..\Classes\RakNet\NativeFeatureIncludesOverrides.h" />
+    <ClInclude Include="..\Classes\RakNet\NativeTypes.h" />
+    <ClInclude Include="..\Classes\RakNet\NatPunchthroughClient.h" />
+    <ClInclude Include="..\Classes\RakNet\NatPunchthroughServer.h" />
+    <ClInclude Include="..\Classes\RakNet\NatTypeDetectionClient.h" />
+    <ClInclude Include="..\Classes\RakNet\NatTypeDetectionCommon.h" />
+    <ClInclude Include="..\Classes\RakNet\NatTypeDetectionServer.h" />
+    <ClInclude Include="..\Classes\RakNet\NetworkIDManager.h" />
+    <ClInclude Include="..\Classes\RakNet\NetworkIDObject.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketConsoleLogger.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketFileLogger.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketizedTCP.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketLogger.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketOutputWindowLogger.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketPool.h" />
+    <ClInclude Include="..\Classes\RakNet\PacketPriority.h" />
+    <ClInclude Include="..\Classes\RakNet\PluginInterface2.h" />
+    <ClInclude Include="..\Classes\RakNet\PS3Includes.h" />
+    <ClInclude Include="..\Classes\RakNet\PS4Includes.h" />
+    <ClInclude Include="..\Classes\RakNet\Rackspace.h" />
+    <ClInclude Include="..\Classes\RakNet\RakAlloca.h" />
+    <ClInclude Include="..\Classes\RakNet\RakAssert.h" />
+    <ClInclude Include="..\Classes\RakNet\RakMemoryOverride.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetCommandParser.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetDefines.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetDefinesOverrides.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetSmartPtr.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetSocket.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetSocket2.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetStatistics.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetTime.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetTransport2.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetTypes.h" />
+    <ClInclude Include="..\Classes\RakNet\RakNetVersion.h" />
+    <ClInclude Include="..\Classes\RakNet\RakPeer.h" />
+    <ClInclude Include="..\Classes\RakNet\RakPeerInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\RakSleep.h" />
+    <ClInclude Include="..\Classes\RakNet\RakString.h" />
+    <ClInclude Include="..\Classes\RakNet\RakThread.h" />
+    <ClInclude Include="..\Classes\RakNet\RakWString.h" />
+    <ClInclude Include="..\Classes\RakNet\Rand.h" />
+    <ClInclude Include="..\Classes\RakNet\RandSync.h" />
+    <ClInclude Include="..\Classes\RakNet\ReadyEvent.h" />
+    <ClInclude Include="..\Classes\RakNet\RefCountedObj.h" />
+    <ClInclude Include="..\Classes\RakNet\RelayPlugin.h" />
+    <ClInclude Include="..\Classes\RakNet\ReliabilityLayer.h" />
+    <ClInclude Include="..\Classes\RakNet\ReplicaEnums.h" />
+    <ClInclude Include="..\Classes\RakNet\ReplicaManager3.h" />
+    <ClInclude Include="..\Classes\RakNet\Router2.h" />
+    <ClInclude Include="..\Classes\RakNet\RPC4Plugin.h" />
+    <ClInclude Include="..\Classes\RakNet\SecureHandshake.h" />
+    <ClInclude Include="..\Classes\RakNet\SendToThread.h" />
+    <ClInclude Include="..\Classes\RakNet\SignaledEvent.h" />
+    <ClInclude Include="..\Classes\RakNet\SimpleMutex.h" />
+    <ClInclude Include="..\Classes\RakNet\SimpleTCPServer.h" />
+    <ClInclude Include="..\Classes\RakNet\SingleProducerConsumer.h" />
+    <ClInclude Include="..\Classes\RakNet\SocketDefines.h" />
+    <ClInclude Include="..\Classes\RakNet\SocketIncludes.h" />
+    <ClInclude Include="..\Classes\RakNet\SocketLayer.h" />
+    <ClInclude Include="..\Classes\RakNet\StatisticsHistory.h" />
+    <ClInclude Include="..\Classes\RakNet\StringCompressor.h" />
+    <ClInclude Include="..\Classes\RakNet\StringTable.h" />
+    <ClInclude Include="..\Classes\RakNet\SuperFastHash.h" />
+    <ClInclude Include="..\Classes\RakNet\TableSerializer.h" />
+    <ClInclude Include="..\Classes\RakNet\TCPInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\TeamBalancer.h" />
+    <ClInclude Include="..\Classes\RakNet\TeamManager.h" />
+    <ClInclude Include="..\Classes\RakNet\TelnetTransport.h" />
+    <ClInclude Include="..\Classes\RakNet\ThreadPool.h" />
+    <ClInclude Include="..\Classes\RakNet\ThreadsafePacketLogger.h" />
+    <ClInclude Include="..\Classes\RakNet\TransportInterface.h" />
+    <ClInclude Include="..\Classes\RakNet\TwoWayAuthentication.h" />
+    <ClInclude Include="..\Classes\RakNet\UDPForwarder.h" />
+    <ClInclude Include="..\Classes\RakNet\UDPProxyClient.h" />
+    <ClInclude Include="..\Classes\RakNet\UDPProxyCommon.h" />
+    <ClInclude Include="..\Classes\RakNet\UDPProxyCoordinator.h" />
+    <ClInclude Include="..\Classes\RakNet\UDPProxyServer.h" />
+    <ClInclude Include="..\Classes\RakNet\VariableDeltaSerializer.h" />
+    <ClInclude Include="..\Classes\RakNet\VariableListDeltaTracker.h" />
+    <ClInclude Include="..\Classes\RakNet\VariadicSQLParser.h" />
+    <ClInclude Include="..\Classes\RakNet\VitaIncludes.h" />
+    <ClInclude Include="..\Classes\RakNet\WindowsIncludes.h" />
+    <ClInclude Include="..\Classes\RakNet\WSAStartupSingleton.h" />
+    <ClInclude Include="..\Classes\RakNet\XBox360Includes.h" />
+    <ClInclude Include="..\Classes\RakNet\_FindFirst.h" />
+    <ClInclude Include="..\Classes\EntitiesManager.h" />
+    <ClInclude Include="..\Classes\Scenes\Base\BaseLayer.h" />
+    <ClInclude Include="..\Classes\Scenes\Game\GameLayer.h" />
+    <ClInclude Include="..\Classes\Scenes\Game\GameScene.h" />
+    <ClInclude Include="..\Classes\Scenes\Game\HudLayer.h" />
+    <ClInclude Include="..\Classes\Scenes\MainCity\MainCityHudLayer.h" />
+    <ClInclude Include="..\Classes\Scenes\MainCity\MainCityLayer.h" />
+    <ClInclude Include="..\Classes\Scenes\MainCity\MainCityScene.h" />
+    <ClInclude Include="..\Classes\Skills\Actions\SkillFollow.h" />
+    <ClInclude Include="..\Classes\Skills\Actions\SkillJumpBy.h" />
+    <ClInclude Include="..\Classes\Skills\Actions\SkillMoveBy.h" />
+    <ClInclude Include="..\Classes\Skills\Reader\RoleResolver.h" />
+    <ClInclude Include="..\Classes\Skills\Skill.h" />
+    <ClInclude Include="..\Classes\Skills\SkillAttack\SkillAttack.h" />
+    <ClInclude Include="..\Classes\Skills\SkillAttack\SkillAttackManager.h" />
+    <ClInclude Include="..\Classes\Skills\SkillControl\SkillHudLayer.h" />
+    <ClInclude Include="..\Classes\Skills\SkillControl\SkillItem.h" />
+    <ClInclude Include="..\Classes\Skills\SkillProperty.h" />
+    <ClInclude Include="..\Classes\Skills\SkillSystem\SkillSystem.h" />
+    <ClInclude Include="..\Classes\Sprites\AnimateBase\Animate3D.h" />
+    <ClInclude Include="..\Classes\Sprites\AnimateBase\AnimateAction.h" />
+    <ClInclude Include="..\Classes\Sprites\AnimateBase\AnimateData.h" />
+    <ClInclude Include="..\Classes\Sprites\AnimationSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\BaseSprites\BaseSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\BaseSprites\SimpleAnimation.h" />
+    <ClInclude Include="..\Classes\Sprites\Decoration\NoteSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Decoration\ShadowSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Entity\BarrierSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Entity\DungeonPortal.h" />
+    <ClInclude Include="..\Classes\Sprites\Entity\ItemSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Entity\PortalSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Entity\SkillContactSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Physics\BasePhysicsSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Physics\ContactAnimateSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\Physics\ContactSprite.h" />
+    <ClInclude Include="..\Classes\Sprites\RoleFilter\RoleFilter.h" />
+    <ClInclude Include="..\Classes\Sprites\Role\AiPlayer.h" />
+    <ClInclude Include="..\Classes\Sprites\Role\Hero.h" />
+    <ClInclude Include="..\Classes\Sprites\Role\NPCSprite.h" />
+    <ClInclude Include="..\Classes\Sqlite\sqlite3.h" />
+    <ClInclude Include="..\Classes\Sqlite\SqliteHelper.h" />
+    <ClInclude Include="..\Classes\Sqlite\SqliteQuery.h" />
+    <ClInclude Include="..\Classes\Sqlite\SqliteResolver.h" />
+    <ClInclude Include="..\Classes\Sqlite\SqliteTable.h" />
+    <ClInclude Include="..\Classes\TileLayers\DebugLayer.h" />
+    <ClInclude Include="..\Classes\TileLayers\TileParallaxNode.h" />
+    <ClInclude Include="..\Classes\Utils\MathUtils.h" />
+    <ClInclude Include="..\Classes\Utils\MiscUtils.h" />
+    <ClInclude Include="..\Classes\Utils\StringUtils.h" />
+    <ClInclude Include="..\Classes\VisibleRect.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="pthread\include\pthread.h" />
+    <ClInclude Include="pthread\include\sched.h" />
+    <ClInclude Include="pthread\include\semaphore.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\RakNet\RakNet.vcproj" />
+    <None Include="..\Classes\RakNet\RakNet_vc8.vcproj" />
+    <None Include="..\Classes\RakNet\RakNet_vc9.vcproj" />
+    <None Include="..\Resources\birds.plist" />
+    <None Include="..\Resources\leaves.plist" />
+    <None Include="..\Resources\mainInfo.plist" />
+    <None Include="..\Resources\pd_sprites.plist" />
+    <None Include="..\Resources\pd_sprites.pvr.ccz" />
+    <None Include="..\Resources\spine\alice.atlas" />
+    <None Include="..\Resources\spine\alice.json" />
+    <None Include="..\Resources\steelWheel.plist" />
+    <None Include="..\Resources\steelWheel.pvr.ccz" />
+    <None Include="..\Resources\test\rysjdz.json" />
+    <None Include="..\Resources\test\rysjdz0.plist" />
+    <None Include="..\Resources\test\SmallSun.plist" />
+    <None Include="..\Resources\test\test.json" />
+    <None Include="..\Resources\test\test0.plist" />
+    <None Include="..\Resources\tilemaps\jueqinggu-0.tmx" />
+    <None Include="..\Resources\tilemaps\jueqinggu-1.tmx" />
+    <None Include="..\Resources\tilemaps\jueqinggu-2.tmx" />
+    <None Include="..\Resources\tilemaps\xiangyangcheng-2.tmx" />
+    <None Include="..\Resources\tilemaps\xiangyangcheng-3.tmx" />
+    <None Include="..\Resources\tilemaps\xiangyangcheng.tmx" />
+    <None Include="..\Resources\waterWave.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\birds.png" />
+    <Image Include="..\Resources\Block.jpg" />
+    <Image Include="..\Resources\bollet.png" />
+    <Image Include="..\Resources\HelloWorld.png" />
+    <Image Include="..\Resources\Paddle.jpg" />
+    <Image Include="..\Resources\spine\alice.png" />
+    <Image Include="..\Resources\test\rysjdz0.png" />
+    <Image Include="..\Resources\test\test0.png" />
+    <Image Include="..\Resources\tilemaps\jueqinggu.png" />
+    <Image Include="..\Resources\tilemaps\xiangyangcheng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\music\background.wav" />
+    <Media Include="..\Resources\music\pd_herodeath.wav" />
+    <Media Include="..\Resources\music\pd_hit0.wav" />
+    <Media Include="..\Resources\music\pd_hit1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\RakNet\CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

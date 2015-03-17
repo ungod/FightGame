@@ -1,0 +1,250 @@
+{
+  "armature_data": [
+    {
+      "name": "jolfiremove",
+      "bone_data": [
+        {
+          "name": "Layer108",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_04.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_05.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_06.png"
+            },
+            {
+              "displayType": 0,
+              "name": "jolfiremove/jolfiremove_07.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "jolfiremove",
+      "mov_data": [
+        {
+          "name": "fly",
+          "dr": 49,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer108",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 3,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 4,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 5,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 6,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 7,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 7,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "jolfiremove\\jolfiremove_00",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_01",
+      "width": 79.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_02",
+      "width": 77.0,
+      "height": 50.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_03",
+      "width": 77.0,
+      "height": 55.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_04",
+      "width": 79.0,
+      "height": 50.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_05",
+      "width": 78.0,
+      "height": 52.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_06",
+      "width": 77.0,
+      "height": 53.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "jolfiremove\\jolfiremove_07",
+      "width": 78.0,
+      "height": 52.0,
+      "pX": 0.5,
+      "pY": 0.5
+    }
+  ],
+  "config_file_path": [
+    "jolfiremove0.plist"
+  ]
+}

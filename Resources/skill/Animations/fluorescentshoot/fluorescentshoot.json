@@ -1,0 +1,204 @@
+{
+  "armature_data": [
+    {
+      "name": "fluorescentshoot",
+      "bone_data": [
+        {
+          "name": "Layer110",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "launchfluorescentshoot/shoot_0.png"
+            },
+            {
+              "displayType": 0,
+              "name": "launchfluorescentshoot/shoot_1.png"
+            },
+            {
+              "displayType": 0,
+              "name": "launchfluorescentshoot/shoot_2.png"
+            },
+            {
+              "displayType": 0,
+              "name": "launchfluorescentshoot/shoot_3.png"
+            },
+            {
+              "displayType": 0,
+              "name": "launchfluorescentshoot/shoot_4.png"
+            },
+            {
+              "displayType": 0,
+              "name": "launchfluorescentshoot/shoot_5.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "fluorescentshoot",
+      "mov_data": [
+        {
+          "name": "explo",
+          "dr": 37,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer110",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 3,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 4,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 5,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 5,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "launchfluorescentshoot\\shoot_0",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "launchfluorescentshoot\\shoot_1",
+      "width": 51.0,
+      "height": 80.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "launchfluorescentshoot\\shoot_2",
+      "width": 52.0,
+      "height": 78.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "launchfluorescentshoot\\shoot_3",
+      "width": 49.0,
+      "height": 80.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "launchfluorescentshoot\\shoot_4",
+      "width": 50.0,
+      "height": 78.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "launchfluorescentshoot\\shoot_5",
+      "width": 50.0,
+      "height": 80.0,
+      "pX": 0.5,
+      "pY": 0.5
+    }
+  ],
+  "config_file_path": [
+    "fluorescentshoot0.plist"
+  ]
+}

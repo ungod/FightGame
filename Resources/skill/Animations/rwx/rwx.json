@@ -1,0 +1,1218 @@
+{
+  "armature_data": [
+    {
+      "name": "rwx",
+      "bone_data": [
+        {
+          "name": "Layer110",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 8,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "hurt/rwx_hurt_00.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer108",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "attack1/rwx_attack1_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack1/rwx_attack1_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack1/rwx_attack1_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack1/rwx_attack1_04.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer107",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "attack_fx2/attack_bao07.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx2/attack_bao08.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx2/attack_bao09.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx2/attack_bao10.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer103",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx04.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx05.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx06.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx/attack_fx07.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer106",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "attack0/rwx_attack_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack0/rwx_attack_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack0/rwx_attack_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack0/rwx_attack_04.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer105",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "attack_fx1/attack_di00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx1/attack_di01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx1/attack_di02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx1/attack_di03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "attack_fx1/attack_di04.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer104",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "walk/rwx_walk_00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "walk/rwx_walk_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "walk/rwx_walk_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "walk/rwx_walk_03.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer102",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "idle/rwx_idle_00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "idle/rwx_idle_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "idle/rwx_idle_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "idle/rwx_idle_03.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "rwx",
+      "mov_data": [
+        {
+          "name": "idle",
+          "dr": 49,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer102",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 0,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 1,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 2,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk",
+          "dr": 41,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer104",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 10,
+                  "dI": 0,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 10,
+                  "dI": 1,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 10,
+                  "dI": 2,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 10,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack",
+          "dr": 52,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer106",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 0,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 14,
+                  "dI": 1,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 7,
+                  "dI": 2,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 23,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 0,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "Layer103",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 4,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 1,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 2,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 3,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 4,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 5,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 6,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 7,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 7,
+                  "x": 100.0,
+                  "y": 10.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 8,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 5,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "Layer105",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 7,
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 7,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 7,
+                  "dI": 3,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 7,
+                  "dI": 4,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 7,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": -70.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "Layer107",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 32,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 0,
+                  "x": 350.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 1,
+                  "x": 350.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 4,
+                  "dI": 2,
+                  "x": 350.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 4,
+                  "dI": 3,
+                  "x": 350.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 350.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 0,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 6,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack1",
+          "dr": 45,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer108",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 8,
+                  "dI": 0,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 7,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 15,
+                  "dI": 1,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 7,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 8,
+                  "dI": 2,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 7,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 13,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 7,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 7,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "dr": 16,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer110",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 15,
+                  "dI": 0,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 8,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 0,
+                  "x": 12.0,
+                  "y": 10.0,
+                  "z": 8,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "idle\\rwx_idle_00",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.493902445,
+      "pY": 0.497175127
+    },
+    {
+      "name": "idle\\rwx_idle_01",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "idle\\rwx_idle_02",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.498480231,
+      "pY": 0.5
+    },
+    {
+      "name": "idle\\rwx_idle_03",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "walk\\rwx_walk_00",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "walk\\rwx_walk_01",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "walk\\rwx_walk_02",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "walk\\rwx_walk_03",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.498480231,
+      "pY": 0.5
+    },
+    {
+      "name": "attack0\\rwx_attack_01",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack0\\rwx_attack_02",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack0\\rwx_attack_03",
+      "width": 329.0,
+      "height": 354.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack0\\rwx_attack_04",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.497175127
+    },
+    {
+      "name": "attack1\\rwx_attack1_01",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.502824843
+    },
+    {
+      "name": "attack1\\rwx_attack1_02",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack1\\rwx_attack1_03",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack1\\rwx_attack1_04",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.498480231,
+      "pY": 0.5
+    },
+    {
+      "name": "hurt\\rwx_hurt_00",
+      "width": 164.0,
+      "height": 177.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx00",
+      "width": 114.0,
+      "height": 114.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx01",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.498823524,
+      "pY": 0.49818182
+    },
+    {
+      "name": "attack_fx\\attack_fx02",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx03",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx04",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx05",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx06",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx\\attack_fx07",
+      "width": 425.0,
+      "height": 275.0,
+      "pX": 0.498823524,
+      "pY": 0.49818182
+    },
+    {
+      "name": "attack_fx1\\attack_di00",
+      "width": 140.0,
+      "height": 75.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx1\\attack_di01",
+      "width": 140.0,
+      "height": 75.0,
+      "pX": 0.5,
+      "pY": 0.49333334
+    },
+    {
+      "name": "attack_fx1\\attack_di02",
+      "width": 140.0,
+      "height": 75.0,
+      "pX": 0.5,
+      "pY": 0.49333334
+    },
+    {
+      "name": "attack_fx1\\attack_di03",
+      "width": 140.0,
+      "height": 75.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx1\\attack_di04",
+      "width": 140.0,
+      "height": 75.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx2\\attack_bao07",
+      "width": 350.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx2\\attack_bao08",
+      "width": 350.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.49818182
+    },
+    {
+      "name": "attack_fx2\\attack_bao09",
+      "width": 350.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "attack_fx2\\attack_bao10",
+      "width": 350.0,
+      "height": 275.0,
+      "pX": 0.5,
+      "pY": 0.49818182
+    }
+  ],
+  "config_file_path": [
+    "rwx0.plist",
+    "rwx1.plist"
+  ]
+}

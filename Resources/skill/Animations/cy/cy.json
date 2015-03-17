@@ -1,0 +1,251 @@
+{
+  "armature_data": [
+    {
+      "name": "cy",
+      "bone_data": [
+        {
+          "name": "Layer107",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "daoguangs/dao_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "daoguangs/dao_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "daoguangs/dao_04.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer104",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "canying/rysjdz_yz01_001.png"
+            },
+            {
+              "displayType": 0,
+              "name": "canying/rysjdz_yz01_002.png"
+            },
+            {
+              "displayType": 0,
+              "name": "canying/rysjdz_yz01_003.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "cy",
+      "mov_data": [
+        {
+          "name": "canying",
+          "dr": 26,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer104",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 8,
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "Layer107",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 8,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": 0,
+                  "x": 20.0,
+                  "y": 0.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 1,
+                  "x": 20.0,
+                  "y": 0.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 2,
+                  "x": 20.0,
+                  "y": 0.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 5,
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "daoguangs\\dao_02",
+      "width": 200.0,
+      "height": 105.0,
+      "pX": 0.5,
+      "pY": 0.4952381
+    },
+    {
+      "name": "daoguangs\\dao_03",
+      "width": 200.0,
+      "height": 105.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "daoguangs\\dao_04",
+      "width": 200.0,
+      "height": 105.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "canying\\rysjdz_yz01_001",
+      "width": 200.0,
+      "height": 105.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "canying\\rysjdz_yz01_002",
+      "width": 200.0,
+      "height": 105.0,
+      "pX": 0.5,
+      "pY": 0.4952381
+    },
+    {
+      "name": "canying\\rysjdz_yz01_003",
+      "width": 200.0,
+      "height": 105.0,
+      "pX": 0.5,
+      "pY": 0.5
+    }
+  ],
+  "config_file_path": [
+    "cy0.plist"
+  ]
+}

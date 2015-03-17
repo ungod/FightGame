@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!-------数据库访问状态，0为本地，1为远程--------->
+	<key>DBRemote</key>
+	<real>1</real>
+ <!-------物理调试状态，0为关闭，1为开启--------->
+	<key>PhyDebug</key>
+	<real>0</real>
+</dict>
+</plist>

@@ -1,0 +1,546 @@
+{
+  "armature_data": [
+    {
+      "name": "hs",
+      "bone_data": [
+        {
+          "name": "Layer108",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "hs/hs_hurt_00.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer106",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "hs/hs_attack_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_attack_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_attack_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_attack_04.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer104",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "hs/hs_walk_00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_walk_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_walk_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_walk_03.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_walk_04.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_walk_05.png"
+            }
+          ]
+        },
+        {
+          "name": "Layer102",
+          "parent": "",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "displayType": 0,
+              "name": "hs/hs_idle_00.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_idle_01.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_idle_02.png"
+            },
+            {
+              "displayType": 0,
+              "name": "hs/hs_idle_03.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "hs",
+      "mov_data": [
+        {
+          "name": "idle",
+          "dr": 61,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer102",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 15,
+                  "dI": 0,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 15,
+                  "dI": 1,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 15,
+                  "dI": 2,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 15,
+                  "dI": 3,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 1,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk",
+          "dr": 73,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer104",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 0,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 1,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 2,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 3,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 4,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 5,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 5,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 2,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack",
+          "dr": 49,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer106",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 6,
+                  "dI": 0,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 14,
+                  "dI": 1,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 12,
+                  "dI": 2,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 16,
+                  "dI": 3,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 3,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 3,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "dr": 11,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "mov_bone_data": [
+            {
+              "name": "Layer108",
+              "dl": 0.0,
+              "sc": 1.0,
+              "frame_data": [
+                {
+                  "twE": 0,
+                  "dr": 10,
+                  "dI": 0,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                },
+                {
+                  "twE": 0,
+                  "dr": 1,
+                  "dI": 0,
+                  "x": 25.0,
+                  "y": 16.0,
+                  "z": 4,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "hs\\hs_idle_00",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.498371333,
+      "pY": 0.4976526
+    },
+    {
+      "name": "hs\\hs_idle_01",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_idle_02",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_idle_03",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.498371333,
+      "pY": 0.4976526
+    },
+    {
+      "name": "hs\\hs_walk_00",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.498371333,
+      "pY": 0.4976526
+    },
+    {
+      "name": "hs\\hs_walk_01",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_walk_02",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_walk_03",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_walk_04",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_walk_05",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_attack_01",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_attack_02",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_attack_03",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_attack_04",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    },
+    {
+      "name": "hs\\hs_hurt_00",
+      "width": 307.0,
+      "height": 213.0,
+      "pX": 0.5,
+      "pY": 0.5
+    }
+  ],
+  "config_file_path": [
+    "hs0.plist"
+  ]
+}
